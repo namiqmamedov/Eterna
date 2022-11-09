@@ -1,0 +1,58 @@
+﻿@model List<Pricing>
+@{
+    ViewData["Title"] = "Index";
+    List<PRService> PRServices = ViewBag.PRServices;
+ }
+
+<!-- ======= Breadcrumbs ======= -->
+<section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Pricing</li>
+        </ol>
+        <h2>Pricing</h2>
+
+    </div>
+</section><!-- End Breadcrumbs -->
+<!-- ======= Pricing Section ======= -->
+<section id="pricing" class="pricing">
+    <div class="container">
+
+        <div class="row no-gutters">
+
+            @foreach (Pricing item in Model)
+            {
+                <div class="col-lg-4 box @(item.isFeatured ? "featured" : "")">
+                    <h3>@item.Name</h3>
+                    <h4>$ @item.Price<span>per month</span></h4>
+                    <ul>
+                        @foreach (PRService service in PRServices)
+                        {
+                            if (item.PricingServices.Exists(ps => ps.PRServiceId == service.Id))
+                            {
+                                <li><i class="bx bx-check"></i>@service.Name</li>
+                            }
+                            else
+                            {
+                                <li class="na"><i class="bx bx-x"></i> <span>@service.Name</span></li>
+                            }
+                        }
+                    </ul>
+                    @if (item.IsBuy)
+                    {
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    }
+                    else
+                    {
+                        <a href="#" class="buy-btn">Buy Now</a>
+                    }
+                </div>
+            }
+            
+
+        </div>
+
+    </div>
+</section><!-- End Pricing Section -->

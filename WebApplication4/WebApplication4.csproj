@@ -1,0 +1,104 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20221107195152_CreatedSettingsTable.cs" />
+    <Compile Remove="Migrations\20221107195152_CreatedSettingsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221107195249_CreatedSettingsTable.cs" />
+    <Compile Remove="Migrations\20221107195249_CreatedSettingsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221107234421_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221107234421_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108113853_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108113853_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108114101_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108114101_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108115039_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108115039_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108132343_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221108132343_CreatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108133847_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221108133847_CreatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108134109_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221108134109_CreatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108134227_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108134227_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108134530_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108134530_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108134756_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108134756_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108135433_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108135433_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108135550_UpdatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221108135550_UpdatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108135701_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108135701_UpdatedPortfolioTableRelatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108140626_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108140626_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108140835_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108140835_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108140926_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108140926_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108141338_CreatedSettingsTable.cs" />
+    <Compile Remove="Migrations\20221108141338_CreatedSettingsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108141622_CreatedPortfolioCategoriesTable.cs" />
+    <Compile Remove="Migrations\20221108141622_CreatedPortfolioCategoriesTable.Designer.cs" />
+    <Compile Remove="Migrations\20221108205749_UpdatedPricingsTableAddedIsNow.cs" />
+    <Compile Remove="Migrations\20221108205749_UpdatedPricingsTableAddedIsNow.Designer.cs" />
+    <Compile Remove="Migrations\20221108210024_UpdatedPricingsTableAddedIsBuy.cs" />
+    <Compile Remove="Migrations\20221108210024_UpdatedPricingsTableAddedIsBuy.Designer.cs" />
+    <Compile Remove="Migrations\20221109154135_CreatedAboutTable.cs" />
+    <Compile Remove="Migrations\20221109154135_CreatedAboutTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109154443_CreatedAboutTable.cs" />
+    <Compile Remove="Migrations\20221109154443_CreatedAboutTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109154600_CreatedAboutsTable.cs" />
+    <Compile Remove="Migrations\20221109154600_CreatedAboutsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109154742_CreatedAboutsTable.cs" />
+    <Compile Remove="Migrations\20221109154742_CreatedAboutsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109155105_CreatedAboutsTable.cs" />
+    <Compile Remove="Migrations\20221109155105_CreatedAboutsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109160059_CreatedDescriptionsTableAndUpdatedAboutTable.cs" />
+    <Compile Remove="Migrations\20221109160059_CreatedDescriptionsTableAndUpdatedAboutTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109163823_CreatedDescriptionsTable.cs" />
+    <Compile Remove="Migrations\20221109163823_CreatedDescriptionsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109164237_CreatedDescriptionsTable.cs" />
+    <Compile Remove="Migrations\20221109164237_CreatedDescriptionsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109172544_UpdatedAboutsTable.cs" />
+    <Compile Remove="Migrations\20221109172544_UpdatedAboutsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109204808_CreatedBlogsTable.cs" />
+    <Compile Remove="Migrations\20221109204808_CreatedBlogsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109213634_UpdatedHomesTableChangeName.cs" />
+    <Compile Remove="Migrations\20221109213634_UpdatedHomesTableChangeName.Designer.cs" />
+    <Compile Remove="Migrations\20221109225215_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221109225215_CreatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109225441_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221109225441_CreatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109230049_add-migraton test.cs" />
+    <Compile Remove="Migrations\20221109230049_add-migraton test.Designer.cs" />
+    <Compile Remove="Migrations\20221109230219_Test.cs" />
+    <Compile Remove="Migrations\20221109230219_Test.Designer.cs" />
+    <Compile Remove="Migrations\20221109230440_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221109230440_CreatedPortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109230529_CreatedTestsTable.cs" />
+    <Compile Remove="Migrations\20221109230529_CreatedTestsTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109231115_CreatePortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221109231115_CreatePortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109231303_CreatePortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221109231303_CreatePortfoliosTable.Designer.cs" />
+    <Compile Remove="Migrations\20221109231419_CreatedPortfoliosTable.cs" />
+    <Compile Remove="Migrations\20221109231419_CreatedPortfoliosTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.30" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.30">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>
